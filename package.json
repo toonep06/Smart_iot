@@ -1,6 +1,7 @@
 {
   "name": "iot-project-vite",
   "private": true,
+  "homepage": "https://toonep06.github.io/Smart_iot/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
