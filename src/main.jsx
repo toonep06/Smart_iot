@@ -12,13 +12,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<LoginPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/home" element={
+        <Route path="/Smart_iot/login" element={<LoginPage />} />
+        <Route path="/Smart_iot/home" element={
           <ProtectedRoute>
             <App />
           </ProtectedRoute>
         } />
-        <Route path="/dashboard" element={
+        <Route path="/Smart_iot/dashboard" element={
           <ProtectedRoute>
             <Dashboard />
           </ProtectedRoute>
