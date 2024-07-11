@@ -86,7 +86,7 @@ const LoginPage = () => {
       localStorage.setItem('token', token);
 
       // Redirect to home page or dashboard
-      window.location.href = '/home';
+      window.location.href = '/Smart_iot/home';
     } catch (err) {
       setError('Login failed. Please check your username and password.');
     } finally {
